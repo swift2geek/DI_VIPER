@@ -1,0 +1,21 @@
+# Template information section
+name: "swifty_viper"
+summary: "Swift VIPER module template with UIViewController playing as a View and Presenter. Dependecy Injection on board"
+author: "Vladimir Valter"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: vc/ViewController.swift, path: Code/vc/ViewController.swift.liquid}
+
+# Interactor layer
+- {name: interactors/Interactor.swift, path: Code/interactors/Interactor.swift.liquid}
+
+# Router layer
+- {name: routers/Router.swift, path: Code/routers/Router.swift.liquid}
+
+# DI
+- {name: dependenceProvider/DependenceProvider.swift, path: Code/dependenceProvider/DependenceProvider.swift.liquid}
